@@ -28,7 +28,7 @@
         <!--业务模块-->
         <module>pursuer-business</module>
         <!--网关模块-->
-        <!--<module>pursuer-gateway</module>-->
+        <module>pursuer-gateway</module>
     </modules>
     <dependencies>
     <!-- Spring boot 核心web-->
