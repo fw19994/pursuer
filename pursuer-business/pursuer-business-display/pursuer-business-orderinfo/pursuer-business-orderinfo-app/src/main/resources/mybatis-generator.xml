@@ -36,6 +36,6 @@
         </javaClientGenerator>
         <!--生成对应表及类名-->
         <!--tableName为数据库中表的名称，domainObjectName为映射的实体类的名称-->
-        <table tableName="" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="%" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     </context>
 </generatorConfiguration>
