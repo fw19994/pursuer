@@ -11,7 +11,7 @@
             <property name="suppressAllComments" value="false"/>
         </commentGenerator>
         <!--数据库链接地址账号密码-->
-        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://39.106.51.31:3306/fengwei" userId="root" password="317812">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://39.106.51.31:3306/fengwei" userId="root" password="317812">
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
@@ -36,6 +36,6 @@
         </javaClientGenerator>
         <!--生成对应表及类名-->
         <!--tableName为数据库中表的名称，domainObjectName为映射的实体类的名称-->
-        <table tableName="USER" domainObjectName="User" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     </context>
 </generatorConfiguration>
