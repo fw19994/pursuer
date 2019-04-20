@@ -39,7 +39,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-    </dependencies>
+        <!-- 添加模块依赖-->
+        <dependency>
+            <groupId>com.pursuer.microservice</groupId>
+            <artifactId>pursuer-business-display-orderinfo-feign</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pursuer.microservice</groupId>
+            <artifactId>pursuer-business-display-orderinfo-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        </dependencies>
 
     <dependencyManagement>
         <dependencies>
