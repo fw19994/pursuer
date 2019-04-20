@@ -10,8 +10,8 @@ spring:
         name: service-helloworld
 # MyBatis
 mybatis:
-    typeAliasesPackage: org.spring.springboot.domain
-    mapperLocations: classpath:mapper/*.xml
+    typeAliasesPackage: com.pursuer.microservice.orderinfo.app.entity
+    mapper-locations: classpath:mapper/*.xml
     #configLocation: classpath:/mybatis-config.xml
 eureka:
     client:
